@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Câmera</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/" name="close"></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button (click)="toggleCarema()">
+        <ion-icon slot="icon-only" name="reverse-camera"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header> 
+
+<ion-content color="primary">
+  <br>
+  <br>
+  <br>
+  
+  <p class="ion-text-center">
+    <video id="video" autoplay width="300" height="300"></video>
+    <canvas id="canvas" style="display: none;" width="300" height="300"></canvas>
+  </p>
+
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button color="success" (click)="takePicture()">
+      <ion-icon name="camera"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  
+</ion-content>

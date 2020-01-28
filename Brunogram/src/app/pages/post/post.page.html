@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Publicar</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="showCloseOptions()">
+        <ion-icon slot="icon-only" name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-card>
+    <ion-slides pager="true" (ionSlideDidChange)="changeFilter()">
+      <ion-slide *ngFor="let filter of filters">
+        <div>
+          <img src="{{ post.image }}" class="{{ filter }}" />
+          <p>{{ filter.split('-')[1] }}</p>
+          <br>
+        </div>
+      </ion-slide>
+    </ion-slides>
+  </ion-card>
+
+  <ion-item *ngIf="!post.location">
+    <ion-icon name="pin" slot="start"></ion-icon>
+    <ion-label>
+      <small>Nenhuma localização</small>
+    </ion-label>
+    <ion-button fill="outline" slot="end" (click)="getGeolocation()">Ativar</ion-button>
+  </ion-item>
+
+  <ion-button ion-item fill="clear" expand="full" *ngIf="post.location" (click)="showMap()">
+    <ion-icon name="pin" slot="start"></ion-icon>
+    Ver Localização
+  </ion-button>
+
+  <ion-item lines="none">
+    <ion-textarea [(ngModel)]="post.description" placeholder="No que você está pensando?" (focusout)="saveLocal()">
+    </ion-textarea>
+  </ion-item>
+
+  <br>
+
+  <ion-progress-bar [value]="percent/100" *ngIf="progress | async as percent"></ion-progress-bar>
+
+  <ion-button ion-item fill="outline" shape="round" size="large" expand="block" (click)="submit()" *ngIf="!progress">
+    PUBLICAR
+  </ion-button>
+
+</ion-content>

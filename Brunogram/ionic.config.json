@@ -1,0 +1,7 @@
+{
+  "name": "Brunogram",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

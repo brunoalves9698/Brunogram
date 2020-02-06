@@ -17,4 +17,4 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/brunoalves9698/).
 
 ## Some Observations about this App
 
-1 - For the map loading to work on the screen, you must enter a valid Google API key. You can get a key [here](https://developers.google.com/maps/documentation/javascript/get-api-key?hl=en#key).
+1 - For the map loading to work on the screen, you must enter a valid Google API key. You can get it [here](https://developers.google.com/maps/documentation/javascript/get-api-key?hl=en#key).

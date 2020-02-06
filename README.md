@@ -13,7 +13,7 @@ Now, this project is part of my personal portfolio, so I would be happy to provi
 
 Email-me: brunoalves9698@gmail.com
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/brunoalves9698/).
+Connect with me on [LinkedIn](https://www.linkedin.com/in/bruno-alves-de-souza-44a934196/).
 
 ## Some Observations about this App
 

@@ -34,3 +34,30 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/bruno-alves-de-souza-4
   - Apply filter to photo.
   - Get location and view on map.
   - Publication storage for later posting.
+  
+## Getting Started
+
+### Prerequisites
+
+To run this project in the development mode, you'll need to have a basic environment to run a Ionic App, that can be found [here](https://ionicframework.com/docs/installation/cli).
+
+### Installing
+
+**Cloning the Repository**
+
+```
+$ git clone https://github.com/steniowagner/mindCast
+
+$ cd brunogram
+```
+
+**Installing dependencies**
+
+```
+$ npm install
+```
+
+
+
+
+

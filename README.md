@@ -1,5 +1,8 @@
 # Brunogram
+
 A social network project with ionic framework
+
+[App Screenshots](https://github.com/brunoalves9698/Brunogram/blob/master/full-app.png)
 
 ## About this Project
 

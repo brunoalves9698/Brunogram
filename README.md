@@ -32,7 +32,7 @@ If you want to test the application in Production mode, the link to access the P
 
 ## Functionalities
 
-- Hybrid application that can run directly on the web as a PWA or distributor in the Play Store and Apple Store application stores.
+- Hybrid application that can run directly on the web as a PWA or distributor in the Play Store and Apple Store.
 
 - Account
   - Registration and login with email and password.

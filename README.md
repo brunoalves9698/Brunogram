@@ -67,6 +67,28 @@ $ cd brunogram
 $ npm install
 ```
 
+### Running
+
+With all dependencies installed and the environment properly configured, you can now run the app:
+
+Web
+
+```
+$ ionic serve
+```
+
+Android
+
+```
+$ ionic cordova run android
+```
+
+iOS
+
+```
+$ ionic cordova run ios
+```
+
 
 
 

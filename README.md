@@ -21,3 +21,16 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/bruno-alves-de-souza-4
 ## Some Observations about this App
 
 1 - For the map loading to work on the screen, you must enter a valid Google API key. You can get it [here](https://developers.google.com/maps/documentation/javascript/get-api-key?hl=en#key).
+
+## Functionalities
+
+- Account
+  - Registration and login with email and password.
+  - Login with google.
+
+- Post
+  - View new publications in real time.
+  - Open and view camera image right in the app.
+  - Apply filter to photo.
+  - Get location and view on map.
+  - Publication storage for later posting.

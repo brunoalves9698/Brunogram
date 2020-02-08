@@ -89,7 +89,11 @@ iOS
 $ ionic cordova run ios
 ```
 
+## Built With
 
+- [Angular 8](https://facebook.github.io/react-native/)
+- [Ionic 4](https://angular.io/)
+- [Firebase](https://firebase.google.com/?hl=pt-br)
 
 
 

@@ -91,8 +91,8 @@ $ ionic cordova run ios
 
 ## Built With
 
-- [Angular 8](https://facebook.github.io/react-native/)
-- [Ionic 4](https://angular.io/)
+- [Angular 8](https://angular.io/)
+- [Ionic 4](https://ionicframework.com/)
 - [Firebase](https://firebase.google.com/?hl=pt-br)
 
 
